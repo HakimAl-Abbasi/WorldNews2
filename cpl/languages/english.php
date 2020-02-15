@@ -1,0 +1,128 @@
+<?php
+
+function lang($phrase){
+ 
+    static $lang=array(
+        //side Bar
+        'dash'=>'dashboard',
+        'item1'=>'Break news',
+        'item2'=>'Categories',
+        'item3'=>'comments',
+        'item4'=>'Gallary',
+        'item5'=>'Groups',
+        'item6'=>'Posts',
+        'item7'=>'Users',
+        'item8'=>'Votes',
+        //status
+        "s1"=>"active",
+        "s2"=>"unActive",
+        //top Bar
+        'icon0'=>'Search for...',
+        'icon1'=>'messeages',
+        'icon2'=>'Notification',
+        'icon3'=>'Tasks',
+        'icon4'=>'Profile',
+        'icon5'=>'Logout',
+        'icon6'=>'Languages',
+        'l1'=>"Arabic",
+        'l2'=>"English",
+        'more1'=>'view all notifications',
+        'more2'=>'view all messages',
+        'more3'=>'view all Tasks',
+        //users
+        'utitle'=>'users managment',
+        'uAction1'=>'set admin',
+        'uAction2'=>'change privialleges',
+        'uAction3'=>'confirm',
+        'uth1'=>'Name',
+        'uth2'=>'Email',
+        'uth3'=>'Phone ',
+        'uth4'=>'register_date',
+        'uth5'=>'state',
+        'uth6'=>'Activiator',
+        'uth7'=>'Action',
+        'um2'=>'Disable Account',
+        'um2content'=>'are you cure, you want to disable this account?',
+        'um2o1'=>'Confirm',
+        'um2o2'=>'Cancel',
+        //posts
+        'ptitle'=>'posts managment',
+        'paction1'=>'add post',
+        'paction2'=>'delete selected posts',
+        'th0'=>'select',
+        'th1'=>'Title',
+        'th2'=>'Categories',
+        'th3'=>'Create_date',
+        'th4'=>'Publish_date',
+        'th5'=>'Creator',
+        'th6'=>'Status',
+        'th7'=>'Action',
+        'th8'=>'Intro',
+        'th9'=>'Content',
+        'th10'=>'image',
+        'm1'=>'Add post',
+        'm1o1'=>'publish',
+        'm1o2'=>'cancel',
+        'm2'=>'Delete post',
+        'm2content'=>'are you cure, you want to delete this post?',
+        'm2o1'=>'confirm',
+        'm2o2'=>'Cancel',
+        'm3'=>'Edit Post',
+        'm3o1'=>'Edit',
+        'm3o2'=>'cancel',
+        'm5'=>'Post Details',
+
+        //categories
+
+        'ctitle'=>'categories managment',
+        'caction1'=>'add category',
+        'caction2'=>'delete selected categories',
+        'cth0'=>'select',
+        'cth1'=>'Title',
+        'cth2'=>'parent',
+        'cth3'=>'Create_date',
+        'cth4'=>'Creator',
+        'cth5'=>'Status',
+        'cth6'=>'Action',
+        'cm1'=>'Add category',
+        'cm1o1'=>'publish',
+        'cm1o2'=>'cancel',
+        'cm2'=>'Delete category',
+        'cm2content'=>'are you cure, you want to delete this category?',
+        'cm2o1'=>'confirm',
+        'cm2o2'=>'Cancel',
+        'cm3'=>'Edit category',
+        'cm3o1'=>'Edit',
+        'cm3o2'=>'cancel',
+        'cm4'=>'Edit history',
+
+         //Breaks
+
+         'btitle'=>'Break News',
+         'baction1'=>'add Break News',
+         'baction2'=>'delete selected News',
+         'bth0'=>'select',
+         'bth1'=>'Content',
+         'bth2'=>'Start_date',
+         'bth3'=>'End_date',
+         'bth4'=>'Creator',
+         'bth5'=>'Status',
+         'bth6'=>'Action',
+         'bm1'=>'Add Break News',
+         'bm1o1'=>'publish',
+         'bm1o2'=>'cancel',
+         'bm2'=>'Delete Break News',
+         'bm2content'=>'are you cure, you want to delete this news?',
+         'bm2o1'=>'confirm',
+         'bm2o2'=>'Cancel',
+         'bm3'=>'Edit Break News',
+         'bm3o1'=>'Edit',
+         'bm3o2'=>'cancel',
+
+        
+
+    );
+    return $lang[$phrase];
+}
+
+?>
